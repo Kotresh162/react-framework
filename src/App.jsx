@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Card from "./Card.jsx"
 import Component from "./component.jsx"
 import ColorPicker from './ColorPick/ColorPicker.jsx'
+import CarComponent from './carPart/CarComponent.jsx'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <>
       {/* <Card/> */}
       {/* <Component/> */}
-      <ColorPicker/>
+      {/* <ColorPicker/> */}
+      <CarComponent/>
     </>
   )
 }
