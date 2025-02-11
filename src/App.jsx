@@ -1,14 +1,10 @@
-import TodoList from './Todo/TodoList.jsx'
+import DigiClock from './digiclock/DigClock.jsx'
 
 function App() {
 
   return (
     <>
-      {/* <Card/> */}
-      {/* <Component/> */}
-      {/* <ColorPicker/> */}
-      {/* <CarComponent/> */}
-      <TodoList/>
+      <DigiClock/>
     </>
   )
 }
